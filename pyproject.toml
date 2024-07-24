@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vrml-ovrhd"
+version = "0.1.0"
+description = "Python project to fix VRML files before importing into Blender"
+authors = ["Sadie <54846511+zulc22@users.noreply.github.com>"]
+license = "0BSD"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyVRML97 = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
